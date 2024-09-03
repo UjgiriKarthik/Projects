@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Programming Learning App</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .video-playlist iframe {
+            width: 100%;
+            height: 315px;
+            margin-bottom: 1em;
+            border-radius: 12px;
+            box-shadow: 10px;
+        }
+        .code-editor iframe {
+            width: 100%;
+            border: 1px solid #ddd;
+            height: 500px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        @media (min-width: 992px) {
+            .video-playlist .iframe-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .video-playlist iframe {
+                width: calc(100% / 3 - 20px); 
+                margin-right: 20px;
+            }
+            .video-playlist iframe:last-child {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-success text-white text-center py-3">
+        <h1>Multi Programming Learning Application</h1>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#python">Python</a></li>
+            <li class="nav-item"><a class="nav-link" href="#javascript">JavaScript</a></li>
+            <li class="nav-item"><a class="nav-link" href="#java">Java</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cpp">C++</a></li>
+            <li class="nav-item"><a class="nav-link" href="#c">C</a></li>
+            <li class="nav-item"><a class="nav-link" href="#data-structures">Data Structures</a></li>
+        </ul>
+    </nav>
+    <main class="container mt-4">
+        
+
+        <section id="python">
+            <h2 class="mt-4 mb-4">Python</h2>
+            <div class="video-playlist">
+                <h3 class="mt-4 mb-4">Preparation Videos</h3>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/_uQrJ0TkZlc?si=N8HvRHbBVGacqEvB" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/B25zIPZHU8w?si=xFadKjFvDulPPpZU" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/eWRfhZUzrAc?si=Cfts2M3Z3qS13yhh" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="code-editor">
+                <h3 class="mt-4 mb-4">Code Editor</h3>
+                <iframe src="https://www.programiz.com/python-programming/online-compiler/" frameborder="0"></iframe>
+            </div>
+        </section>
+        <section id="javascript">
+            <h2 class="mt-4 mb-4">JavaScript</h2>
+            <div class="video-playlist">
+                <h3 class="mt-4 mb-4">Preparation Videos</h3>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg?si=yRcK7pbAenHWgMiC" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/IC5vBKc21X8?si=dUh6Fr1M_FfKNEWs" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/VlPiVmYuoqw?si=AMlul1Z_hgZMwg_O" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="code-editor">
+                <h3 class="mt-4 mb-4">Code Editor</h3>
+                <iframe src="https://www.programiz.com/javascript/online-compiler/" frameborder="0"></iframe>
+            </div>
+        </section>
+        <section id="java">
+            <h2 class="mt-4 mb-4">Java</h2>
+            <div class="video-playlist">
+                <h3 class="mt-4 mb-4">Preparation Videos</h3>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/UmnCZ7-9yDY?si=lJFzwFtU9ku7BF2w" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/grEKMHGYyns?si=pCo_Gwx8SVBkGMpw" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/AzJEnN2pK_I?si=7PfatU-fw9yCoOK4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="code-editor">
+                <h3 class="mt-4 mb-4">Code Editor</h3>
+                <iframe src="https://www.programiz.com/java-programming/online-compiler/" frameborder="0"></iframe>
+            </div>
+        </section>
+        <section id="c">
+            <h2 class="mt-4 mb-4">C</h2>
+            <div class="video-playlist">
+                <h3 class="mt-4 mb-4">Preparation Videos</h3>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/_MF8L7ZxwRE?si=9GzolUlVL5inbgKV" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/irqbmMNs2Bo?si=PZa-Mst3ooZ4kZZE" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/KJgsSFOSQv0?si=sqwnO3Lec_9A2KhT" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="code-editor">
+                <h3 class="mt-4 mb-4">Code Editor</h3>
+                <iframe src="https://www.programiz.com/c-programming/online-compiler/" frameborder="0"></iframe>
+            </div>
+        </section>
+        <section id="cpp">
+            <h2 class="mt-4 mb-4">C++</h2>
+            <div class="video-playlist">
+                <h3 class="mt-4 mb-4">Preparation Videos</h3>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/ZzaPdXTrSb8?si=9MDQphPCOh4kr93u" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/vLnPwxZdW4Y?si=mPCMgS8ZhMRffBij" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/e7sAf4SbS_g?si=ejvRkTGB5s33VQqV" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="code-editor">
+                <h3 class="mt-4 mb-4">Code Editor</h3>
+                <iframe src="https://www.programiz.com/cpp-programming/online-compiler/" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
